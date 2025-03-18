@@ -31,10 +31,6 @@ fakers.forEach(faker => {
 });
 
 window.addEventListener("load", () => {
-    let fakers = [
-        new Faker('//*[@id="asset_total_amount"]', "999,999,999")
-    ];
-
     fakers.forEach(faker => {
         faker.fakeText();
     });
